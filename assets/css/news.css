@@ -1,0 +1,15 @@
+.news-content {
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.news-content h2{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+

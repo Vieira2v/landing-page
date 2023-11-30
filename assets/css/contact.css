@@ -1,0 +1,74 @@
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 320px;
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    background: rgba(82, 136, 138, 0.137);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 2rem;
+}
+.form-group button {
+    border: 0.5rem solid rgba(82, 136, 138, 0.363);
+    background: var(--white-color);
+    color: black;
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    border: 0.5rem solid var(--white-color);
+    background: rgba(82, 136, 138, 0.137);
+    color: rgba(0, 0, 0, 0.205);
+}
+
+.form-group ::placeholder {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.295);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+
+@media (max-width: 800px) {
+    .intro-content, .grid {
+        grid-template-columns: 1fr;
+    }
+}

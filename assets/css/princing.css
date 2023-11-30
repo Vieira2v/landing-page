@@ -1,0 +1,44 @@
+.princing-content {
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.princing-content h2 {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+table {
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+table thead {
+    background:rgba(255, 235, 205, 0.062)
+}
+
+table caption {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    margin-left: -45rem;
+}
+
+table tfoot {
+    font-style: italic;
+}
+
+.responsive-table {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+}
