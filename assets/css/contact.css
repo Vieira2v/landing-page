@@ -2,6 +2,10 @@
     grid-column: span 2;
 }
 
+.white-bg {
+    padding-bottom: 2rem;
+}
+
 .contact-form .form-grid {
     border: none;
     display: flex;
